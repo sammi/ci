@@ -7,3 +7,9 @@ build:
 compose:
   database:
     image: postgres
+publish:
+  docker:
+    username: sammi
+    password: $DOCKHUB_PASSWORD
+    email: songyunhui2008@gmail.com
+    repo: sammi/ci
